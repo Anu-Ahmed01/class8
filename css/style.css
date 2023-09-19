@@ -1,0 +1,138 @@
+/* ======common css start ====*/
+*{
+    margin: 0px;
+   padding: 0px;
+   outline: 0;
+  box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+ul,ol {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+ul li {
+    display: inline-block;
+}
+
+.container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+   
+}
+.row{
+    display: flex;
+    
+
+}
+
+/* ======common css end ====*/
+
+
+/* ======nav section start ====*/
+nav{
+
+    width: 100%;
+   background-color: #02918c;
+   position: fixed;
+   
+}
+
+nav .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li a{
+   font-size: 12px;
+   font-weight: 800;
+   text-transform: uppercase;
+   color: #ffff;
+   padding: 19px 25px;
+   display: inline-block;
+   transition: .5s;
+}
+
+nav ul li a:hover{
+    color:#cfc91d;
+}
+
+/* ======nav section end ====*/
+
+
+
+/* 3333333333 banner section start 3333333333333333 */
+#banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./img/banner.png);
+    background-size: cover;
+    width: 100%;
+    
+    text-align: center;
+    
+    padding: 90px;
+    padding-top: 209px;
+    
+    
+    
+
+}
+
+#banner .container h3{
+    font-size: 30pt;
+    color: #ffff;
+   
+}
+
+#banner .container h1{
+    font-size: 68px;
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+
+#banner .container p{
+    font-size: 18 pt;
+    color: #ffff;
+}
+
+#banner .container a{
+    color: black;
+    display: inline-block;
+    background-color: #cfc91d;
+    padding: 24px 98px ;
+    letter-spacing: 5px;
+    font-size: 14pt;
+    transition: 0.5s;
+    
+   
+}
+
+
+#banner .container a:hover{
+    color: #02918c;
+}
+
+
+/* 3333333333 banner section end 3333333333333333 */
+
+/* ======About section start ====*/
+.about_me{
+
+    text-align: center;
+}
+
+.about_me h2{
+    font-size: ;
+}
+/* ====== section_div end ====*/
